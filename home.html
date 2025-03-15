@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Commerce Site</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    background-image: url(16666\ \(2\).png);
+    background-size: 100%;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+.logo{
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+    
+    
+ }
+ .mmm{
+    border-radius: 100px;
+    width: 100PX;
+    height: 100PX;
+    }
+
+nav ul li {
+    display: inline;
+    padding: 0px;
+    margin-right: 90px;
+    margin-top: 17px;
+    font-size: 14px;
+    float: right;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(243, 9, 9);
+    font-family: Arial;
+    font-weight: bold;
+    transition: ease 1000ms;
+    cursor: pointer;
+    transform: scale(1,1);
+    font-size: 20px;
+
+}
+ul li a:hover{
+    color: rgb(240, 239, 239);
+
+}
+.wel{
+    padding: 0;
+    margin:auto;
+    text-align: center;
+    color: rgb(237, 237, 241);
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(250, 249, 249);
+    cursor: pointer;
+transition: ease 1000ms;
+}
+.wel span{
+    color: orange;
+}
+.wel:hover{
+    color: orange;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #f8f5f5;
+    background-color: black;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    animation: 0,01ms;
+    height: auto;
+    border-radius: 50%;
+    animation: slide-down 3s ease-out;
+
+
+}
+@keyframes slide-down {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.FOO{
+    color: black;
+    background-color: aqua;
+    font-size: bold;
+    font-family: 'Times New Roman'
+}
+.icc{
+    color: yellow;
+    font-size: 24px;
+    margin-top: 0px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px
+}
+.fa{  
+justify-content: center;
+align-items: center;
+margin-left: 70px;
+color: rgb(145, 255, 0);
+display: flex;
+float: left;
+justify-content: center;
+font-size: 34px;
+justify-content: space-between;
+box-shadow: 0,0,2s;
+border-radius: 0%;
+}
+.fa-brands fa-facebook{
+    justify-content: space-between;
+    display: inline-block;
+background-color: aqua;
+box-shadow: #f4f4f4;
+}
+.cen{
+    margin-top: 0px;
+    padding: 0px;
+}
+.fa:hover{
+    background-color: rgb(243, 9, 9);
+    content: counter(sociial medias);
+}
+.p{
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman';
+    letter-spacing: 1.5px;
+    background-color: black;
+
+}
+.ddd{
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman';
+    letter-spacing: 1.5px;
+    background-color: black;
+}
+.product{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+.parr{
+    color: rgb(255, 0, 0);
+    font-family: 'Times New Roman';
+    letter-spacing: 1.5px;
+    background-color: black;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    animation: 0.5s;
+}
+.fa-brands fa-instagram{
+    color: chocolate;
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+.ig{
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+.nam{
+    background-color: aqua;
+    color: blue;
+}
+.prce{
+    background-color: aqua;
+    color: blue;
+}
+.pa{
+    color: red;
+    background-color: rgb(7, 7, 7);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #ff0404;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #00ff2a; /* Highlight color */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #f70505;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.there{
+    color: #f70505;
+    font-size: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img class="mmm" src="pictures/IMG_20250207_110607.jpg">
+    </div>
+        <h2 class="wel">Welcome To Juba Tech
+         <span>Online Company</span>
+        </h2>
+        <nav>
+            <ul>
+                <li><a href="Login.html">Contact us</a></li>
+                <li><a href="Abt.html">About us</a></li>
+                <li><a href="svc.html">Services</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="MJ.html">Home</a></li>
+                <img src="pictures/IMG-20250213-WA0112.jpg" height="800px" width="1400px">
+<p class="ddd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus eius necessitatibus modi, delectus quaerat vitae, sunt ab voluptatum enim ad animi minus qui porro debitis, deleniti rem similique incidunt suscipit?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi alias tempore quibusdam voluptatibus sit maxime culpa, ratione labore incidunt dolore exercitationem quis nostrum sequi quaerat quo doloremque corrupti! Veritatis, officiis.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ea quibusdam debitis repellat asperiores sequi ipsa reprehenderit commodi doloribus tenetur distinctio vel nostrum nam libero, non veniam illo, corrupti quia!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium vero nisi officia molestias, voluptate cupiditate est laborum provident amet recusandae quos eius excepturi architecto nulla. Vero perferendis quas voluptas.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore non, atque officia quidem vero temporibus, fuga cumque quasi culpa nulla aliquam, et possimus. Laboriosam, quod sed. Blanditiis, nemo dolorem.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, architecto? A, beatae aliquid! Omnis nisi molestiae iste dolorem tenetur dolor blanditiis voluptates! Aperiam recusandae hic nostrum nulla, cumque ad. Voluptas.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex molestiae voluptatem cupiditate consequuntur vero quam odio placeat veniam ducimus, dolor, aut eum perferendis, voluptas possimus nulla enim! Architecto, veritatis ratione.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum velit assumenda consequuntur id mollitia error autem, vel magni debitis inventore tempora rerum necessitatibus illo distinctio corrupti nam, in cum!
+</p>
+<img src="pictures/istockphoto-2158106294-612x612.jpg" height="800px" width="1400px">
+            </ul>
+            <p class="ddd">, The Company started from 2 employees and now employs more than 500 people.
+                Juba Tech.com started off from selling books in 2018, based in Juba South Sudan, and entered consumer electronics category with the launch of mobile phones, in September 2019. Since then, it kept on adding more new products categories including books, mobiles, computers, cameras, home & electronic gadgets& appliances, In addition to these very Recently, Juba Tech.com has also widened its foray by entering into the emerging digital content market with the recent launch of Flyte, the digital music store is and still continuing to enlarge its product portfolio. It is now one of the leading e-commerce players in South Sudan currently ranks at the top 10 websites in South Sudan. Anukrati Sharma.(2015)
+                
+            </p>
+        </nav>
+<div>
+    <img src="pictures/images (37).jfif" height="800px" width="1400">
+    <p class="ddd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus eius necessitatibus modi, delectus quaerat vitae, sunt ab voluptatum enim ad animi minus qui porro debitis, deleniti rem similique incidunt suscipit?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi alias tempore quibusdam voluptatibus sit maxime culpa, ratione labore incidunt dolore exercitationem quis nostrum sequi quaerat quo doloremque corrupti! Veritatis, officiis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, ea quibusdam debitis repellat asperiores sequi ipsa reprehenderit commodi doloribus tenetur distinctio vel nostrum nam libero, non veniam illo, corrupti quia!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni accusantium vero nisi officia molestias, voluptate cupiditate est laborum provident amet recusandae quos eius excepturi architecto nulla. Vero perferendis quas voluptas.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio tempore non, atque officia quidem vero temporibus, fuga cumque quasi culpa nulla aliquam, et possimus. Laboriosam, quod sed. Blanditiis, nemo dolorem.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, architecto? A, beatae aliquid! Omnis nisi molestiae iste dolorem tenetur dolor blanditiis voluptates! Aperiam recusandae hic nostrum nulla, cumque ad. Voluptas.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex molestiae voluptatem cupiditate consequuntur vero quam odio placeat veniam ducimus, dolor, aut eum perferendis, voluptas possimus nulla enim! Architecto, veritatis ratione.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum velit assumenda consequuntur id mollitia error autem, vel magni debitis inventore tempora rerum necessitatibus illo distinctio corrupti nam, in cum!
+    </p>
+</div>
+   
+        <main>
+            <h1>Our Products</h1>
+            <div class="product-list">
+                <article class="product">
+                    <img src="pictures/IMG-20250213-WA0112.jpg"alt="Product 1">
+                    <h2 class="nam">laptop HP</h2>
+                    <p class="prce">$1000.00</p>
+                    <p class="pa">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <button class="there is nogiation on it tell us what you can`t affort">
+                        <a href="inquir.html">Select</a>
+                    </button>
+                </article>
+                <div class="product">
+                    <img src="pictures/download (12).jfif" alt="Product 2">
+                    <h2 class="nam">Computer Hp</h2>
+                    <p class="prce">$800.00</p>
+                       <p class="pa"> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        
+                    </p>
+                    <button class="there"> <a href="inquir.html"></a> Select</button>
+                </div>
+                <article class="product">
+                    <img src="pictures/download (9).jfif" alt="Product 3">
+                    <h2 class="nam">Macbook</h2>
+                    <p class="prce">$1500.00</p>
+                    <p class="parr"> Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <button class="there is nogiation on it tell us what you can`t affort"><a href="inquir.html"></a>Select</button>
+                </article>
+            </div>
+            
+        </main>
+    <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dolorem fugiat numquam omnis ipsa inventore velit, quibusdam fuga? Suscipit quas similique dignissimos nihil. Error hic sequi deleniti quia, corporis maiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit accusantium inventore, asperiores facere nemo aliquid, quibusdam quisquam iure harum quaerat nostrum amet officia earum consequuntur aliquam qui, voluptatibus numquam rerum?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis odio veritatis officiis porro asperiores magni dolores velit voluptate itaque quos eligendi nulla atque, explicabo hic natus aspernatur maxime magnam dignissimos.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, error maxime mollitia quod dignissimos molestias consequuntur odio culpa neque non quia, beatae repellat velit. Consectetur ullam omnis quam hic impedit?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci quaerat omnis molestias illum, deleniti aspernatur laborum! Delectus at dolorem quibusdam facere rerum excepturi nostrum praesentium perferendis aut porro. Temporibus, doloribus.
+    </p>
+
+    <main>
+        <section class="product-list">
+            <article class="product">
+                <img src="pictures/download (8).jfif" alt="Product 1">
+                <h2 class="nam">iphone 16</h2>
+                <p class="prce">$2000.00</p>
+                <p class="parr">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <button class="there is nogiation on it tell us what you can`t affort">Select</button>
+            </article>
+            <article class="product">
+                <img src="pictures/download (16).jfif" alt="Product 2">
+                <h2 class="nam">samang galaxy</h2>
+                <p class="prce">$1500.00</p>
+               
+                <p class="parr">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <button class="there is nogiation on it tell us what you can`t affort">Select</button>
+            </article>
+            <article class="product">
+                <img src="pictures/download (1).jfif" alt="Product 3">
+                <h2 class="nam">samsang S24</h2>
+                <p class="prce">$2000.00</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <p class="parr">Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                <button class="there is nogiation on it tell us what you can`t affort">Show more</button>
+            </article>
+        </section>
+        
+    </main>
+<footer>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+        <p class="FOO">FOLLOW US HERE</p>     
+        <div class="fa">
+        
+        
+        </div>              
+    </footer>
+    
+    <script src="script.js"></script>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="footer-section">
+                <ul>
+                    <li><a href="MJ.html">Home</a></li>
+                    <li><a href="svc.html">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="Login.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <p>Email: example@example.com</p>
+                <p>Phone: +211925555442 <br>
+                    +211985555442 <br>
+                    +211915676346
+                </p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <i class="fa-brands fa-facebook"></i> <p><a href="https://www.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr#" class="social-icon">Facebook</a></p>
+                    <i class="fa-brands fa-twitter"></i><p> <a href="https://www.facebook.com/?ref=homescreenpwa&_rdc=1&_rdr#" class="social-icon">Twitter</a></p>
+                    <i class="fa-brands fa-instagram"></i><p><a href="https://www.instagram.com/" class="social-icon">Instagram</a></p>
+                    <i class="fa-brands fa-whatsapp"></i><a href="https://www.whatsapp.com/" class="social-icon">fa-whatsapp</a></p>
+                
+                </div>
+            </div>
+        </div>
+</body>
+</html>
